@@ -1,0 +1,25 @@
+#!/bin/sh
+
+set -e
+
+lb config noauto \
+   --apt-indices 'false' \
+   --apt-source-archives 'false' \
+   --archive-areas 'main contrib non-free' \
+   --backports 'true' \
+   --bootappend-live 'boot=live components' \
+   --clean \
+   --debian-installer 'live' \
+   --debian-installer-distribution 'buster' \
+   --distribution 'buster' \
+   --firmware-binary 'true' \
+   --firmware-chroot 'true' \
+   --image-name 'buster-backports-10.3.0' \
+   --iso-volume 'BUSTER_BACKPORTS' \
+   --mirror-bootstrap 'https://deb.debian.org/debian' \
+   --mirror-binary 'https://deb.debian.org/debian' \
+   --mirror-binary-security 'https://deb.debian.org/debian-security' \
+   --system 'live' \
+   --security 'true' \
+   --updates 'true' \
+	"${@}"

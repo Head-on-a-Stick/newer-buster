@@ -18,7 +18,7 @@ deploy:
    provider: releases
    api_key: "$GITHUB_TOKEN"
    file: 
-      - "buster-backports-10.3.1-amd64.hybrid.iso"
+      - "buster-backports-10.3.2-amd64.hybrid.iso"
       - "sha512sum"
    skip_cleanup: true
    on:

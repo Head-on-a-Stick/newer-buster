@@ -10,11 +10,10 @@ lb config noauto \
    --bootappend-live 'boot=live components' \
    --clean \
    --debian-installer 'live' \
-   --debian-installer-distribution 'buster' \
+   --debian-installer-distribution 'daily' \
    --distribution 'buster' \
    --firmware-binary 'true' \
    --firmware-chroot 'true' \
-   --debian-installer-distribution 'daily' \
    --image-name 'buster-backports-10.3.2' \
    --iso-volume 'BUSTER_BACKPORTS' \
    --mirror-bootstrap 'https://deb.debian.org/debian' \

@@ -1,0 +1,490 @@
+label live-@FLAVOUR@
+	menu label ^Live (@FLAVOUR@)
+	menu default
+	linux @LINUX@
+	initrd @INITRD@
+	append @APPEND_LIVE@
+
+label live-@FLAVOUR@-failsafe
+	menu label ^Live (@FLAVOUR@ failsafe)
+	linux @LINUX@
+	initrd @INITRD@
+	append @APPEND_LIVE_FAILSAFE@
+
+MENU title Debian Live with Localisation Support
+LABEL Albanian (sq)
+  SAY "Booting Albanian (sq)..."
+  linux @LINUX@
+  initrd @INITRD@
+  append @APPEND_LIVE@ locales=sq_AL.UTF-8
+
+LABEL Amharic (am)
+  SAY "Booting Amharic (am)..."
+  linux @LINUX@
+  initrd @INITRD@
+  append @APPEND_LIVE@ locales=am_ET
+
+LABEL Arabic (ar)
+  SAY "Booting Arabic (ar)..."
+  linux @LINUX@
+  initrd @INITRD@
+  append @APPEND_LIVE@ locales=ar_EG.UTF-8
+
+LABEL Asturian (ast)
+  SAY "Booting Asturian (ast)..."
+  linux @LINUX@
+  initrd @INITRD@
+  append @APPEND_LIVE@ locales=ast_ES.UTF-8
+
+LABEL Basque (eu)
+  SAY "Booting Basque (eu)..."
+  linux @LINUX@
+  initrd @INITRD@
+  append @APPEND_LIVE@ locales=eu_ES.UTF-8
+
+LABEL Belarusian (be)
+  SAY "Booting Belarusian (be)..."
+  linux @LINUX@
+  initrd @INITRD@
+  append @APPEND_LIVE@ locales=be_BY.UTF-8
+
+LABEL Bangla (bn)
+  SAY "Booting Bangla (bn)..."
+  linux @LINUX@
+  initrd @INITRD@
+  append @APPEND_LIVE@ locales=bn_BD
+
+LABEL Bosnian (bs)
+  SAY "Booting Bosnian (bs)..."
+  linux @LINUX@
+  initrd @INITRD@
+  append @APPEND_LIVE@ locales=bs_BA.UTF-8
+
+LABEL Bulgarian (bg)
+  SAY "Booting Bulgarian (bg)..."
+  linux @LINUX@
+  initrd @INITRD@
+  append @APPEND_LIVE@ locales=bg_BG.UTF-8
+
+LABEL Tibetan (bo)
+  SAY "Booting Tibetan (bo)..."
+  linux @LINUX@
+  initrd @INITRD@
+  append @APPEND_LIVE@ locales=bo_IN
+
+LABEL C (C)
+  SAY "Booting C (C)..."
+  linux @LINUX@
+  initrd @INITRD@
+  append @APPEND_LIVE@ locales=C
+
+LABEL Catalan (ca)
+  SAY "Booting Catalan (ca)..."
+  linux @LINUX@
+  initrd @INITRD@
+  append @APPEND_LIVE@ locales=ca_ES.UTF-8
+
+LABEL Chinese (Simplified) (zh_CN)
+  SAY "Booting Chinese (Simplified) (zh_CN)..."
+  linux @LINUX@
+  initrd @INITRD@
+  append @APPEND_LIVE@ locales=zh_CN.UTF-8
+
+LABEL Chinese (Traditional) (zh_TW)
+  SAY "Booting Chinese (Traditional) (zh_TW)..."
+  linux @LINUX@
+  initrd @INITRD@
+  append @APPEND_LIVE@ locales=zh_TW.UTF-8
+
+LABEL Croatian (hr)
+  SAY "Booting Croatian (hr)..."
+  linux @LINUX@
+  initrd @INITRD@
+  append @APPEND_LIVE@ locales=hr_HR.UTF-8
+
+LABEL Czech (cs)
+  SAY "Booting Czech (cs)..."
+  linux @LINUX@
+  initrd @INITRD@
+  append @APPEND_LIVE@ locales=cs_CZ.UTF-8
+
+LABEL Danish (da)
+  SAY "Booting Danish (da)..."
+  linux @LINUX@
+  initrd @INITRD@
+  append @APPEND_LIVE@ locales=da_DK.UTF-8
+
+LABEL Dutch (nl)
+  SAY "Booting Dutch (nl)..."
+  linux @LINUX@
+  initrd @INITRD@
+  append @APPEND_LIVE@ locales=nl_NL.UTF-8
+
+LABEL Dzongkha (dz)
+  SAY "Booting Dzongkha (dz)..."
+  linux @LINUX@
+  initrd @INITRD@
+  append @APPEND_LIVE@ locales=dz_BT
+
+LABEL English (en)
+  SAY "Booting English (en)..."
+  linux @LINUX@
+  initrd @INITRD@
+  append @APPEND_LIVE@ locales=en_US.UTF-8
+
+LABEL Esperanto (eo)
+  SAY "Booting Esperanto (eo)..."
+  linux @LINUX@
+  initrd @INITRD@
+  append @APPEND_LIVE@ locales=eo.UTF-8
+
+LABEL Estonian (et)
+  SAY "Booting Estonian (et)..."
+  linux @LINUX@
+  initrd @INITRD@
+  append @APPEND_LIVE@ locales=et_EE.UTF-8
+
+LABEL Finnish (fi)
+  SAY "Booting Finnish (fi)..."
+  linux @LINUX@
+  initrd @INITRD@
+  append @APPEND_LIVE@ locales=fi_FI.UTF-8
+
+LABEL French (fr)
+  SAY "Booting French (fr)..."
+  linux @LINUX@
+  initrd @INITRD@
+  append @APPEND_LIVE@ locales=fr_FR.UTF-8
+
+LABEL Galician (gl)
+  SAY "Booting Galician (gl)..."
+  linux @LINUX@
+  initrd @INITRD@
+  append @APPEND_LIVE@ locales=gl_ES.UTF-8
+
+LABEL Georgian (ka)
+  SAY "Booting Georgian (ka)..."
+  linux @LINUX@
+  initrd @INITRD@
+  append @APPEND_LIVE@ locales=ka_GE.UTF-8
+
+LABEL German (de)
+  SAY "Booting German (de)..."
+  linux @LINUX@
+  initrd @INITRD@
+  append @APPEND_LIVE@ locales=de_DE.UTF-8
+
+LABEL Greek (el)
+  SAY "Booting Greek (el)..."
+  linux @LINUX@
+  initrd @INITRD@
+  append @APPEND_LIVE@ locales=el_GR.UTF-8
+
+LABEL Gujarati (gu)
+  SAY "Booting Gujarati (gu)..."
+  linux @LINUX@
+  initrd @INITRD@
+  append @APPEND_LIVE@ locales=gu_IN
+
+LABEL Hebrew (he)
+  SAY "Booting Hebrew (he)..."
+  linux @LINUX@
+  initrd @INITRD@
+  append @APPEND_LIVE@ locales=he_IL.UTF-8
+
+LABEL Hindi (hi)
+  SAY "Booting Hindi (hi)..."
+  linux @LINUX@
+  initrd @INITRD@
+  append @APPEND_LIVE@ locales=hi_IN
+
+LABEL Hungarian (hu)
+  SAY "Booting Hungarian (hu)..."
+  linux @LINUX@
+  initrd @INITRD@
+  append @APPEND_LIVE@ locales=hu_HU.UTF-8
+
+LABEL Icelandic (is)
+  SAY "Booting Icelandic (is)..."
+  linux @LINUX@
+  initrd @INITRD@
+  append @APPEND_LIVE@ locales=is_IS.UTF-8
+
+LABEL Indonesian (id)
+  SAY "Booting Indonesian (id)..."
+  linux @LINUX@
+  initrd @INITRD@
+  append @APPEND_LIVE@ locales=id_ID.UTF-8
+
+LABEL Irish (ga)
+  SAY "Booting Irish (ga)..."
+  linux @LINUX@
+  initrd @INITRD@
+  append @APPEND_LIVE@ locales=ga_IE.UTF-8
+
+LABEL Italian (it)
+  SAY "Booting Italian (it)..."
+  linux @LINUX@
+  initrd @INITRD@
+  append @APPEND_LIVE@ locales=it_IT.UTF-8
+
+LABEL Japanese (ja)
+  SAY "Booting Japanese (ja)..."
+  linux @LINUX@
+  initrd @INITRD@
+  append @APPEND_LIVE@ locales=ja_JP.UTF-8
+
+LABEL Kazakh (kk)
+  SAY "Booting Kazakh (kk)..."
+  linux @LINUX@
+  initrd @INITRD@
+  append @APPEND_LIVE@ locales=kk_KZ.UTF-8
+
+LABEL Khmer (km)
+  SAY "Booting Khmer (km)..."
+  linux @LINUX@
+  initrd @INITRD@
+  append @APPEND_LIVE@ locales=km_KH
+
+LABEL Kannada (kn)
+  SAY "Booting Kannada (kn)..."
+  linux @LINUX@
+  initrd @INITRD@
+  append @APPEND_LIVE@ locales=kn_IN
+
+LABEL Korean (ko)
+  SAY "Booting Korean (ko)..."
+  linux @LINUX@
+  initrd @INITRD@
+  append @APPEND_LIVE@ locales=ko_KR.UTF-8
+
+LABEL Kurdish (ku)
+  SAY "Booting Kurdish (ku)..."
+  linux @LINUX@
+  initrd @INITRD@
+  append @APPEND_LIVE@ locales=ku_TR.UTF-8
+
+LABEL Lao (lo)
+  SAY "Booting Lao (lo)..."
+  linux @LINUX@
+  initrd @INITRD@
+  append @APPEND_LIVE@ locales=lo_LA
+
+LABEL Latvian (lv)
+  SAY "Booting Latvian (lv)..."
+  linux @LINUX@
+  initrd @INITRD@
+  append @APPEND_LIVE@ locales=lv_LV.UTF-8
+
+LABEL Lithuanian (lt)
+  SAY "Booting Lithuanian (lt)..."
+  linux @LINUX@
+  initrd @INITRD@
+  append @APPEND_LIVE@ locales=lt_LT.UTF-8
+
+LABEL Malayalam (ml)
+  SAY "Booting Malayalam (ml)..."
+  linux @LINUX@
+  initrd @INITRD@
+  append @APPEND_LIVE@ locales=ml_IN
+
+LABEL Marathi (mr)
+  SAY "Booting Marathi (mr)..."
+  linux @LINUX@
+  initrd @INITRD@
+  append @APPEND_LIVE@ locales=mr_IN
+
+LABEL Macedonian (mk)
+  SAY "Booting Macedonian (mk)..."
+  linux @LINUX@
+  initrd @INITRD@
+  append @APPEND_LIVE@ locales=mk_MK.UTF-8
+
+LABEL Burmese (my)
+  SAY "Booting Burmese (my)..."
+  linux @LINUX@
+  initrd @INITRD@
+  append @APPEND_LIVE@ locales=my_MM
+
+LABEL Nepali (ne)
+  SAY "Booting Nepali (ne)..."
+  linux @LINUX@
+  initrd @INITRD@
+  append @APPEND_LIVE@ locales=ne_NP
+
+LABEL Northern Sami (se_NO)
+  SAY "Booting Northern Sami (se_NO)..."
+  linux @LINUX@
+  initrd @INITRD@
+  append @APPEND_LIVE@ locales=se_NO
+
+LABEL Norwegian Bokmaal (nb_NO)
+  SAY "Booting Norwegian Bokmaal (nb_NO)..."
+  linux @LINUX@
+  initrd @INITRD@
+  append @APPEND_LIVE@ locales=nb_NO.UTF-8
+
+LABEL Norwegian Nynorsk (nn_NO)
+  SAY "Booting Norwegian Nynorsk (nn_NO)..."
+  linux @LINUX@
+  initrd @INITRD@
+  append @APPEND_LIVE@ locales=nn_NO.UTF-8
+
+LABEL Persian (fa)
+  SAY "Booting Persian (fa)..."
+  linux @LINUX@
+  initrd @INITRD@
+  append @APPEND_LIVE@ locales=fa_IR
+
+LABEL Polish (pl)
+  SAY "Booting Polish (pl)..."
+  linux @LINUX@
+  initrd @INITRD@
+  append @APPEND_LIVE@ locales=pl_PL.UTF-8
+
+LABEL Portuguese (pt)
+  SAY "Booting Portuguese (pt)..."
+  linux @LINUX@
+  initrd @INITRD@
+  append @APPEND_LIVE@ locales=pt_PT.UTF-8
+
+LABEL Portuguese (Brazil) (pt_BR)
+  SAY "Booting Portuguese (Brazil) (pt_BR)..."
+  linux @LINUX@
+  initrd @INITRD@
+  append @APPEND_LIVE@ locales=pt_BR.UTF-8
+
+LABEL Punjabi (Gurmukhi) (pa)
+  SAY "Booting Punjabi (Gurmukhi) (pa)..."
+  linux @LINUX@
+  initrd @INITRD@
+  append @APPEND_LIVE@ locales=pa_IN
+
+LABEL Romanian (ro)
+  SAY "Booting Romanian (ro)..."
+  linux @LINUX@
+  initrd @INITRD@
+  append @APPEND_LIVE@ locales=ro_RO.UTF-8
+
+LABEL Russian (ru)
+  SAY "Booting Russian (ru)..."
+  linux @LINUX@
+  initrd @INITRD@
+  append @APPEND_LIVE@ locales=ru_RU.UTF-8
+
+LABEL Sinhala (si)
+  SAY "Booting Sinhala (si)..."
+  linux @LINUX@
+  initrd @INITRD@
+  append @APPEND_LIVE@ locales=si_LK
+
+LABEL Serbian (Cyrillic) (sr)
+  SAY "Booting Serbian (Cyrillic) (sr)..."
+  linux @LINUX@
+  initrd @INITRD@
+  append @APPEND_LIVE@ locales=sr_RS
+
+LABEL Slovak (sk)
+  SAY "Booting Slovak (sk)..."
+  linux @LINUX@
+  initrd @INITRD@
+  append @APPEND_LIVE@ locales=sk_SK.UTF-8
+
+LABEL Slovenian (sl)
+  SAY "Booting Slovenian (sl)..."
+  linux @LINUX@
+  initrd @INITRD@
+  append @APPEND_LIVE@ locales=sl_SI.UTF-8
+
+LABEL Spanish (es)
+  SAY "Booting Spanish (es)..."
+  linux @LINUX@
+  initrd @INITRD@
+  append @APPEND_LIVE@ locales=es_ES.UTF-8
+
+LABEL Swedish (sv)
+  SAY "Booting Swedish (sv)..."
+  linux @LINUX@
+  initrd @INITRD@
+  append @APPEND_LIVE@ locales=sv_SE.UTF-8
+
+LABEL Tagalog (tl)
+  SAY "Booting Tagalog (tl)..."
+  linux @LINUX@
+  initrd @INITRD@
+  append @APPEND_LIVE@ locales=tl_PH.UTF-8
+
+LABEL Tamil (ta)
+  SAY "Booting Tamil (ta)..."
+  linux @LINUX@
+  initrd @INITRD@
+  append @APPEND_LIVE@ locales=ta_IN
+
+LABEL Telugu (te)
+  SAY "Booting Telugu (te)..."
+  linux @LINUX@
+  initrd @INITRD@
+  append @APPEND_LIVE@ locales=te_IN
+
+LABEL Tajik (tg)
+  SAY "Booting Tajik (tg)..."
+  linux @LINUX@
+  initrd @INITRD@
+  append @APPEND_LIVE@ locales=tg_TJ.UTF-8
+
+LABEL Thai (th)
+  SAY "Booting Thai (th)..."
+  linux @LINUX@
+  initrd @INITRD@
+  append @APPEND_LIVE@ locales=th_TH.UTF-8
+
+LABEL Turkish (tr)
+  SAY "Booting Turkish (tr)..."
+  linux @LINUX@
+  initrd @INITRD@
+  append @APPEND_LIVE@ locales=tr_TR.UTF-8
+
+LABEL Uyghur (ug)
+  SAY "Booting Uyghur (ug)..."
+  linux @LINUX@
+  initrd @INITRD@
+  append @APPEND_LIVE@ locales=ug_CN
+
+LABEL Ukrainian (uk)
+  SAY "Booting Ukrainian (uk)..."
+  linux @LINUX@
+  initrd @INITRD@
+  append @APPEND_LIVE@ locales=uk_UA.UTF-8
+
+LABEL Vietnamese (vi)
+  SAY "Booting Vietnamese (vi)..."
+  linux @LINUX@
+  initrd @INITRD@
+  append @APPEND_LIVE@ locales=vi_VN
+
+LABEL Welsh (cy)
+  SAY "Booting Welsh (cy)..."
+  linux @LINUX@
+  initrd @INITRD@
+  append @APPEND_LIVE@ locales=cy_GB.UTF-8
+
+ LABEL mainmenu 
+  MENU label Back
+  MENU exit
+  MENU end
+ 
+LABEL Graphical Debian Installer
+  SAY "Booting Graphical Debian Installer..."
+  linux /d-i/gtk/vmlinuz
+  append initrd=/d-i/gtk/initrd.gz append video=vesa:ywrap,mtrr vga=788
+
+LABEL Debian Installer
+  SAY "Booting Debian Installer..."
+  linux /d-i/vmlinuz
+  append initrd=/d-i/initrd.gz 
+
+LABEL Debian Installer with Speech Synthesis
+  SAY "Booting Debian Installer with Speech Synthesis..."
+  linux /d-i/gtk/vmlinuz
+  append initrd=/d-i/gtk/initrd.gz speakup.synth=soft
+

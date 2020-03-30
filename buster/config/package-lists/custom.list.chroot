@@ -1,6 +1,7 @@
-tasksel
-network-manager
+broadcom-sta-dkms
+gpm
 linux-image-amd64/buster-backports
 linux-headers-amd64/buster-backports
+network-manager
 sudo
-gpm
+tasksel

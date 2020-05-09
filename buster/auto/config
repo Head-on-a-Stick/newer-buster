@@ -10,7 +10,7 @@ lb config noauto \
    --bootappend-live 'boot=live components' \
    --clean \
    --debian-installer 'live' \
-   --debian-installer-distribution 'daily' \
+   --debian-installer-distribution 'buster' \
    --distribution 'buster' \
    --firmware-binary 'false' \
    --firmware-chroot 'false' \

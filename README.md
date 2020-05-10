@@ -7,3 +7,5 @@ This Debian buster ISO image includes the kernel, headers & firmware packages fr
 There is no graphical desktop in the live environment (or the installed system) but it does include the gpm package so that touchpad support can be verified.
 
 Once the system is installed use the `nmtui` command connect to the internet and use `tasksel` to select a graphical desktop.
+
+Click on the "releases" tab to find the latest version.

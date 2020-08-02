@@ -8,4 +8,6 @@ There is no graphical desktop in the live environment (or the installed system) 
 
 Once the system is installed use the `nmtui` command connect to the internet and use `tasksel` to select a graphical desktop.
 
-Click on the "releases" tab to find the latest version.
+Download the latest version from here:
+
+https://github.com/Head-on-a-Stick/newer-buster/releases/tag/10.4.0

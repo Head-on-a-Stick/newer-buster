@@ -4,3 +4,4 @@ linux-headers-amd64/buster-backports
 network-manager
 sudo
 tasksel
+vrms

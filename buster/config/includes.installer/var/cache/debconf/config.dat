@@ -1,0 +1,19 @@
+Name: firmware-ipw2x00/license/accepted
+Template: firmware-ipw2x00/license/accepted
+Value: true
+Owners: firmware-ipw2x00
+Flags: seen
+
+Name: firmware-ipw2x00/license/error
+Template: firmware-ipw2x00/license/error
+Owners: firmware-ipw2x00
+
+Name: firmware-ivtv/license/accepted
+Template: firmware-ivtv/license/accepted
+Value: true
+Owners: firmware-ivtv
+Flags: seen
+
+Name: firmware-ivtv/license/error
+Template: firmware-ivtv/license/error
+Owners: firmware-ivtv

@@ -3,23 +3,24 @@
 set -e
 
 lb config noauto \
-   --apt-indices 'false' \
-   --apt-source-archives 'false' \
-   --archive-areas 'main contrib non-free' \
-   --backports 'true' \
-   --bootappend-live 'boot=live components' \
+   --apt-indices "false" \
+   --apt-source-archives "false" \
+   --archive-areas "main contrib non-free" \
+   --backports "true" \
+   --bootappend-live "boot=live components" \
    --clean \
-   --debian-installer 'live' \
-   --debian-installer-distribution 'buster' \
-   --distribution 'buster' \
-   --firmware-binary 'false' \
-   --firmware-chroot 'false' \
-   --image-name 'buster-backports-10.5.1' \
-   --iso-volume 'BUSTER_BACKPORTS' \
-   --mirror-bootstrap 'https://deb.debian.org/debian' \
-   --mirror-binary 'https://deb.debian.org/debian' \
-   --mirror-binary-security 'https://deb.debian.org/debian-security' \
-   --system 'live' \
-   --security 'true' \
-   --updates 'true' \
+   --debian-installer "live" \
+   --debian-installer-distribution "buster" \
+   --distribution "buster" \
+   --firmware-binary "false" \
+   --firmware-chroot "false" \
+   --image-name "buster-backports-10.5.1" \
+   --iso-volume "BUSTER_BACKPORTS" \
+   --mirror-bootstrap "https://deb.debian.org/debian" \
+   --mirror-binary "https://deb.debian.org/debian" \
+   --mirror-binary-security "https://deb.debian.org/debian-security" \
+	--parent-archive-areas "main contrib non-free" \
+   --system "live" \
+   --security "true" \
+   --updates "true" \
 	"${@}"

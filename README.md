@@ -10,4 +10,4 @@ Once the system is installed use the `nmtui` command connect to the internet and
 
 Download the latest version from here:
 
-https://github.com/Head-on-a-Stick/newer-buster/releases/tag/10.5.1
+https://github.com/Head-on-a-Stick/newer-buster/releases/tag/10.5.1%2B1

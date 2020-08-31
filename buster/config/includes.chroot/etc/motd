@@ -1,0 +1,5 @@
+
+Please use the 'nmtui' command to connect to the internet and use the 'tasksel' command to install a graphical desktop.
+
+Edit /etc/motd to remove this message.
+

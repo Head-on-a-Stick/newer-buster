@@ -22,8 +22,6 @@ firmware-brcm80211/buster-backports
 firmware-cavium/buster-backports
 firmware-intel-sound/buster-backports
 firmware-intelwimax/buster-backports
-firmware-ipw2x00/buster-backports
-firmware-ivtv/buster-backports
 firmware-iwlwifi/buster-backports
 firmware-libertas/buster-backports
 firmware-linux-nonfree/buster-backports

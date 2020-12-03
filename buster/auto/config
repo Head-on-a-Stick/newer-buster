@@ -14,7 +14,7 @@ lb config noauto \
    --distribution "buster" \
    --firmware-binary "false" \
    --firmware-chroot "false" \
-   --image-name "buster-backports-10.6.0" \
+   --image-name "buster-backports-10.6.1" \
    --iso-volume "BUSTER_BACKPORTS" \
    --mirror-bootstrap "https://deb.debian.org/debian" \
    --mirror-binary "https://deb.debian.org/debian" \

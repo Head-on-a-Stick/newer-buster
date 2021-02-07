@@ -10,4 +10,14 @@ Once the system is installed use the `nmtui` command connect to the internet and
 
 Download the latest version from here:
 
-https://github.com/Head-on-a-Stick/newer-buster/releases/tag/10.6.1
+https://github.com/Head-on-a-Stick/newer-buster/releases/tag/10.8.0
+
+To build the image locally use these commands:
+```
+sudo apt install git live-build
+git clone https://github.com/head-on-a-stick/newer-buster
+cd newer-buster
+sudo lb clean --purge
+lb config
+sudo lb build
+```
